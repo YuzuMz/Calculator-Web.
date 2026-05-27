@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator Web</title>
+</head>
+<body>
+
+    <div>
+        <h1>Calculator</h1>
+        
+        <div>
+            <input type="number" id="num1" >
+            
+            <select id="operator">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">×</option>
+                <option value="divide">÷</option>
+            </select>
+            
+            <input type="number" id="num2" >
+        </div>
+
+        <button onclick="calculate()" class="btn-calc">คำนวณ</button>
+
+        <div>
+            <span>ผลลัพธ์:</span>
+            <span id="result"> </span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
